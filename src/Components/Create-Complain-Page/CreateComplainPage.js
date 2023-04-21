@@ -6,7 +6,7 @@ import { createComplain } from "../../firebase-service/complain-service";
 import { useAuth } from "../Contexts/AuthContext";
 
 export default function CreateComplainPage() {
-  // this is use to make url like wise jaise wifi pe click liye to wifi ka path open hoga 
+  // this is use to make url like wise jaise wifi pe click liye to wifi ka path open hoga..
   const { category } = useParams();
   const {currentUser} = useAuth();
 
