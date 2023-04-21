@@ -1,0 +1,85 @@
+.navbar {
+  box-shadow: rgb(181, 181, 181) 0px 2px 4px 0px;
+  height: 64px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  height: 80px;
+  margin-top: 8px;
+}
+
+.container img {
+  height: 60px;
+  padding-top: 10px;
+  max-width: 100%;
+}
+
+/* features section css  */
+
+.body-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 0.8rem;
+  font-size: 0.9rem;
+  background-color: #fff;
+  padding: 0.8rem;
+  border-radius: var(--b-r-l);
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  font-weight: bold;
+}
+
+.img-resize img {
+  width: 100%;
+  padding: 10px 50px;
+  /* margin: 15px 0; */
+}
+
+.img-resize img:hover {
+  background: rgba(13, 110, 253, 0.14);
+}
+
+/* complain-page */
+
+.complain-page {
+  margin-top: 15px;
+  font-weight: bold;
+  background: var(--bs-blue);
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 8px;
+  color: white;
+  height: 3rem;
+  border-radius: var(--b-r-l);
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+}
+
+.text-area {
+  margin: 1.4rem; /*0.5rem; used phle se hi*/
+  flex: 1 1 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #fff; /* for colour*/
+}
+
+.text-area {
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+  border-radius: var(--b-r-l);
+  color: white;
+  font-weight: bold;
+}
+
+/* Your  open Complain/Request */
+
+.text-box {
+  padding: 10px;
+ 
+}
